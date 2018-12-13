@@ -106,7 +106,7 @@
                 "S3Bucket": {
                   "Ref": "ServerlessDeploymentBucket"
                 },
-                "S3Key": "serverless/RubyAPI/dev/1544715002575-2018-12-13T15:30:02.575Z/RubyAPI.zip"
+                "S3Key": "serverless/RubyAPI/dev/1544720135521-2018-12-13T16:55:35.521Z/RubyAPI.zip"
               },
               "FunctionName": "RubyAPI-dev-hello",
               "Handler": "handler.hello",
@@ -125,14 +125,14 @@
               "IamRoleLambdaExecution"
             ]
           },
-          "HelloLambdaVersionZH1QcjRP8qtJ2XBM1ffoi2XIWXBGUoONLxqU8e9H7Vs": {
+          "HelloLambdaVersionuX8Sh2lRN2rc36U8sgFGP9NyXDy9PwMQ1Hm7KEudk": {
             "Type": "AWS::Lambda::Version",
             "DeletionPolicy": "Retain",
             "Properties": {
               "FunctionName": {
                 "Ref": "HelloLambdaFunction"
               },
-              "CodeSha256": "9wdrUTI8cgWzkQAMNZVmkdpdPpIDsj2o2R1gKJs7UfM="
+              "CodeSha256": "PSku1xA6j19ZNGBk5PmMpHp0M5uwYy7ccdvfVZ27bpk="
             }
           }
         },
@@ -145,7 +145,7 @@
           "HelloLambdaFunctionQualifiedArn": {
             "Description": "Current Lambda function version",
             "Value": {
-              "Ref": "HelloLambdaVersionZH1QcjRP8qtJ2XBM1ffoi2XIWXBGUoONLxqU8e9H7Vs"
+              "Ref": "HelloLambdaVersionuX8Sh2lRN2rc36U8sgFGP9NyXDy9PwMQ1Hm7KEudk"
             }
           }
         }
@@ -185,7 +185,7 @@
     "artifact": "/Users/703406408/Documents/serverless/RubyAPI/.serverless/RubyAPI.zip"
   },
   "package": {
-    "artifactDirectoryName": "serverless/RubyAPI/dev/1544715002575-2018-12-13T15:30:02.575Z",
+    "artifactDirectoryName": "serverless/RubyAPI/dev/1544720135521-2018-12-13T16:55:35.521Z",
     "artifact": "RubyAPI.zip"
   }
 }
